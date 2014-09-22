@@ -26,6 +26,7 @@ public class Dado {
 		this.port = port;
 		this.domain = domain;
 		this.type = type;
+		System.out.println(this);
 	}
 	
 	public Long getId() {

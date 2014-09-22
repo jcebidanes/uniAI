@@ -14,8 +14,8 @@ public class Main {
 public static void main(String[] args) throws Exception {
 		
 		File localBase;
-		File diretorioCasa = new File("C:/Users/jhonnatan.santos/git/UnicariocaAI/ImportadorDadosAi");
-		File diretorioExterno = new File("C:/Users/jhonnatan.santos/git/ImportadorDadosAi");
+		File diretorioCasa = new File("C:/Users/jhonnatan.santos/git/uniAI/importadorAI");
+		File diretorioExterno = new File("C:/Users/jhonnatan.santos/uniAI/importadorAI");
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("unicariocaPU");
 		EntityManager em = emf.createEntityManager();
